@@ -21,6 +21,33 @@ class CreateCoolerTable extends Migration
             $table->string('tamanho');
             $table->timestamps();
         });
+
+        DB::table('cooler')->insert(
+            array(
+                'marca' => 'Corsair',
+                'modelo' => 'CW-9060028-WW',
+                'descricao' => 'WaterCooler Corsair Hydro Series High Performance H45 - CW-9060028-WW',
+                'tamanho' => '120mm'
+            )
+        );
+
+        DB::table('cooler')->insert(
+            array(
+                'marca' => 'Vinik',
+                'modelo' => '29565',
+                'descricao' => 'Cooler FAN Vinik VX Gaming V.Ring, 120mm, LED Azul - 29565',
+                'tamanho' => '120mm'
+            )
+        );
+
+        DB::table('cooler')->insert(
+            array(
+                'marca' => 'C3ECH',
+                'modelo' => 'F9-L150RGB',
+                'descricao' => 'Cooler Fan C3Tech Storm 12cm c/ LED Multicolorido - F9-L150RGB',
+                'tamanho' => '12cm'
+            )
+        );
     }
 
     /**
