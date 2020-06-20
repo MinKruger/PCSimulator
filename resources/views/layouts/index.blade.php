@@ -45,10 +45,6 @@
   <div class="container">
     <div class="row">
 
-      <div class="container">
-        <img src="https://www.studiopc.com.br/media/wysiwyg/2017/banner-pcmonstrao.png" alt>
-      </div>
-
       <div class="col-lg-3">
 
         <h1 class="my-4">Monte seu computador!</h1>
