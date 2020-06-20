@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+/** Dashboard */
+Route::prefix('home')->group( function () {
+    Route::get('', 'DashboardController@index')->name('dashboard.index');
+    Route::get('pecas', 'PagesController@index')->name('pagescontroller.index');
+});
