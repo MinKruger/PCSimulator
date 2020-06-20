@@ -1,8 +1,8 @@
-#PCSimulator
+# PCSimulator
 
 Projeto criado no intuito de auxiliar usuários com poucos conhecimentos técnicos na construção de seus computadores de forma customizada. Diferentes de sites onde se montam o seu computador, o diferencial do PCSimulator é retornar somentes as peças compatíveis com o componente escolhido.
 
-##Instalando o Projeto
+## Instalando o Projeto
 
 Foi utilizado 
 * PHP 7.2 Orientado a Objetos.
