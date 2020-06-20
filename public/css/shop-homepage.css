@@ -4,7 +4,53 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
 body {
+  background: #000000 url(https://c4.wallpaperflare.com/wallpaper/794/782/502/background-black-red-wallpaper-preview.jpg) no-repeat center top;
+  background-size: cover;
+}
+
+.header {
+  position: relative;
+  z-index: 10;
+}
+
+.containerImg {
+  padding-top: 56px;
+  box-sizing: inherit;
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.containerBd {
   padding-top: 56px;
 }
 
+.img-fluid {
+  max-width: 100%;
+  margin-left: 20%;
+  height: auto;
+}
 
+.list {
+  background-color: #fff;
+}
+
+.col-icon {
+  background: #2a2a2d;
+  width: 40px;
+  padding: 1.875rem;
+}
+
+.col-title {
+  width: 30%;
+}
+
+.col-action {
+  width: 100px;
+  text-align: right;
+  padding-left: 0;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}

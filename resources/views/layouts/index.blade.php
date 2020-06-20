@@ -20,51 +20,55 @@
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="">PCSimulator</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <!-- Search form -->
-          <form class="form-inline mr-auto">
-            <div class="md-form my-0">
+  <header class="header">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar">
+      <div class="container">
+        <a class="navbar-brand" href=""><img src="Icon.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <!-- Search form -->
+            <!-- Search form -->
+            <div class="md-form active-red-2 mb-3">
               <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-              <i class="fas fa-search text-white ml-3" aria-hidden="true"></i>
             </div>
-          </form>
-        </ul>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
+    </nav>
+  </header>
 
   <!-- Page Content -->
   <div class="container">
     <div class="row">
 
-      <div class="col-lg-3">
-
-        <h1 class="my-4">Monte seu computador!</h1>
-        <div class="list-group">
-          <a href="" class="list-group-item">Processador</a>
-          <a href="" class="list-group-item">Placa Mãe</a>
-          <a href="" class="list-group-item">Cooler (Opcional)</a>
-          <a href="" class="list-group-item">Memória RAM</a>
-          <a href="" class="list-group-item">Placa de Vídeo</a>
-          <a href="" class="list-group-item">Hard Disk</a>
-          <a href="" class="list-group-item">SSD (Opcional)</a>
-          <a href="" class="list-group-item">Fonte</a>
-          <a href="" class="list-group-item">Gabinete</a>
+      <div class="container">
+        <div class="containerImg">
+          <div class="row"><div class="col"><img src="banner.png" class="img-fluid"></div></div>
         </div>
-
       </div>
-      <!-- /.col-lg-3 -->
+      
+      <div class="container">
+        <div class="containerBd">
+          <div class="list-group">
+            <a href="" class="list-group-item">Processador</a>
+            <a href="" class="list-group-item">Placa Mãe</a>
+            <a href="" class="list-group-item">Cooler (Opcional)</a>
+            <a href="" class="list-group-item">Memória RAM</a>
+            <a href="" class="list-group-item">Placa de Vídeo</a>
+            <a href="" class="list-group-item">Hard Disk</a>
+            <a href="" class="list-group-item">SSD (Opcional)</a>
+            <a href="" class="list-group-item">Fonte</a>
+            <a href="" class="list-group-item">Gabinete</a>
+          </div>
+        </div>
+      </div>
 
       <div class="col-lg-9">
-
+        
         @yield('content')
         <!-- /.row -->
 
