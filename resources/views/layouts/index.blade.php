@@ -53,17 +53,53 @@
       
       <div class="container">
         <div class="containerBd">
-          <div class="list-group">
-            <a href="" class="list-group-item">Processador</a>
-            <a href="" class="list-group-item">Placa Mãe</a>
-            <a href="" class="list-group-item">Cooler (Opcional)</a>
-            <a href="" class="list-group-item">Memória RAM</a>
-            <a href="" class="list-group-item">Placa de Vídeo</a>
-            <a href="" class="list-group-item">Hard Disk</a>
-            <a href="" class="list-group-item">SSD (Opcional)</a>
-            <a href="" class="list-group-item">Fonte</a>
-            <a href="" class="list-group-item">Gabinete</a>
-          </div>
+          <ul>
+            <li>
+              <div class="icon"><img src="icons/processor.png" width="25px" height="25px"></div>
+              <div class="title">Processador</div>
+              <div class="action">Selecionar</div>
+            </li>
+            <li>
+              <div class="icon"><img src="icons/placamae.png" width="25px" height="25px"></div>
+              <div class="title">Placa Mãe</div>
+              <div class="action"></div>
+            </li>
+            <li>
+              <div class="icon"><img src="icons/cooler.png" width="25px" height="25px"></div>
+              <div class="title">Cooler (Opcional)</div>
+              <div class="action"></div>
+            </li>
+            <li>
+              <div class="icon"><img src="icons/ram.png" width="25px" height="25px"></div>
+              <div class="title">Memória RAM</div>
+              <div class="action"></div>
+            </li>
+            <li>
+              <div class="icon"><img src="icons/placavideo.png" width="25px" height="25px"></div>
+              <div class="title">Placa de Vídeo</div>
+              <div class="action"></div>
+            </li>
+            <li>
+              <div class="icon"><img src="icons/hd.png" width="25px" height="25px"></div>
+              <div class="title">Hard Disk</div>
+              <div class="action"></div>
+            </li>
+            <li>
+              <div class="icon"><img src="icons/ssd.png" width="25px" height="25px"></div>
+              <div class="title">SSD (Opcional)</div>
+              <div class="action"></div>
+            </li>
+            <li>
+              <div class="icon"><img src="icons/fonte.png" width="25px" height="25px"></div>
+              <div class="title">Fonte</div>
+              <div class="action"></div>
+            </li>
+            <li>
+              <div class="icon"><img src="icons/gabinete.png" width="25px" height="25px"></div>
+              <div class="title">Gabinete</div>
+              <div class="action"></div>
+            </li>
+          </ul>
         </div>
       </div>
 
